@@ -3,9 +3,15 @@
 Welcome to BookStore, a dynamic e-commerce application developed to bring the joy of book shopping to your fingertips. This application is built using ReactJS for the front end, NodeJS and Express for the backend, and MongoDB as the database. With features like user authentication, a user-friendly dashboard, wishlist, cart management, and seamless order placement, BookStore offers a comprehensive and enjoyable shopping experience.
 
 ### Technologies Used
+
 Front-end: ReactJS
+
+Styling: Sass
+
 Back-end: NodeJS, Express
+
 Database: MongoDB
+
 State Management: Redux
 
 ### Features
