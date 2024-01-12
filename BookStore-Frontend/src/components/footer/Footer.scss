@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    min-height: 50px;
+    width: 100%;
+    background-color: rgb(22, 21, 21);
+}
+.footer-content {
+    text-align: left;
+    margin-left: 9%;
+    font: normal normal medium 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

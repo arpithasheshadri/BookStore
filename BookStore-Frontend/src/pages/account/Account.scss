@@ -1,0 +1,108 @@
+.image-section{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    margin-top: 12%;
+    margin-left: 30%;
+    width: 624px;
+    height: 400px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.shopping {
+    border-radius: 50%;
+    width: 245px;
+    height: 245px;
+}
+.shopping-heading{
+    padding-top: 30px;
+    padding-left: 25px;
+    text-align: left;
+    font-weight: bold;
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: uppercase;
+}
+.account-section{
+    position: absolute;
+    overflow: hidden;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00000029;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 389px;
+    min-height: 450px;
+    // height: 435px;
+    margin-top: 11%;
+    margin-left: 50%;
+    // opacity: 1;
+}
+@media only screen and (max-width: 1200px){
+    .image-section{
+        display: none;
+    }
+    .account-section {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .image-section{
+        display: none;
+    }
+    .account-section {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 735px){
+    .image-section{
+        display: none;
+    }
+    .account-section {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .image-section{
+        display: none;
+    }
+    .account-section {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .image-section{
+        display: none;
+    }
+    .account-section {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width:360px) {
+    .image-section{
+        display: none;
+    }
+    .account-section {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

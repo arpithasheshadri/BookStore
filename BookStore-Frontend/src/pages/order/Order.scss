@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+.order-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    min-height: 80vh;
+    align-items: center;
+    .order-placed{
+        font: normal normal bold 22px/30px Lato;
+        letter-spacing: 0px;
+        color: #333232;
+        text-transform: capitalize;
+
+    }
+    .order-details{
+        margin-top: 20px;
+        text-align: center;
+        font: normal normal normal 18px/22px Lato;
+        letter-spacing: 0px;
+        color: #333232;
+        margin-bottom: 40px;
+    }
+    .upper{
+        height: 150px;
+        width: 220px;
+    }
+    .lower{
+        height: 100px;
+        width: 150px;
+    }
+    .order-table{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    table{
+        border: 1px solid #dcdcdc;
+        width: 751px;
+        border-collapse: collapse;
+    }
+    td {    
+        width: 223px;
+        border: 1px solid #dcdcdc;
+        border-collapse: collapse;
+        padding: 30px;
+        color: #333232;
+    }
+    th {
+        background-color: #fafafa;
+        padding: 20px;
+        color: #333232;
+    }
+}
+@media only screen and (min-width: 2300px){
+    .order-container{
+        min-height: 88vh;
+    }
+    .order-placed{
+        font: normal normal bold 38px/45px Lato;
+        letter-spacing: 0px;
+        color: #333232;
+        text-transform: capitalize;
+
+    }
+    .order-details{
+        margin-top: 20px;
+        text-align: center;
+        font: normal normal normal 32px/40px Lato;
+        letter-spacing: 0px;
+        color: #333232;
+        margin-bottom: 40px;
+    }
+    table{
+        height: 90%;
+        width: 20%;
+        font-size: 25px;
+    }
+    td{
+        padding: 15px;
+    }
+    th{
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .order-container{
+        min-height: 88vh;
+    }
+    table{
+        height: 90%;
+        width: 20%;
+        font-size: 25px;
+    }
+    td{
+        padding: 15px;
+    }
+    th{
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .order-container{
+        margin: 0;
+        margin-top: 90px;
+    }
+    table{
+        height: 90%;
+        width: 20%;
+        font-size: 11px;
+    }
+    td{
+        padding: 1px;
+    }
+    th{
+        padding: 1px;
+    }
+    .order-placed{
+        font-size: 10px;
+    }
+    .order-details{
+        font-size: 5px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .order-container{
+        margin: 0;
+        margin-top: 90px;
+    }
+    .order-placed{
+        font-size: 10px;
+    }
+    .order-details{
+        font-size: 5px;
+    }
+    table{
+        height: 90%;
+        width: 20%;
+        font-size: 10px;
+    }
+    td{
+        padding: 1px;
+    }
+    th{
+        padding: 1px;
+    }
+}
